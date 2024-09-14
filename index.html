@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RESUME GENERATOR</title>
+</head>
+<body>
+   <div class="nav">
+      <h1>RESUME GENERATOR</h1>
+      <button id="downloadBtn">Download</button>
+   </div> 
+   
+   <section class="Personal-data">
+      <h2>Personal Information</h2>
+      <label>Name</label><br>
+      <input type="text" id="name" placeholder="Enter your name"><br>
+      <label>E-mail</label><br>
+      <input type="email" id="email" placeholder="Enter your e-mail"><br>
+      <label>Contact Number</label><br>
+      <input type="text" id="contact" placeholder="Enter your number"><br>
+      <label>LinkedIn</label><br>
+      <input type="text" id="linkedin" placeholder="Enter your LinkedIn URL"><br>
+      <label>Address</label><br>
+      <input type="text" id="address" placeholder="Enter your Address"><br>
+   </section>
+   
+   <section class="education">
+      <h2>Education</h2>
+      <label>Matriculation</label><br>
+      <input type="text" id="matric" placeholder="Enter here"><br>
+      <label>Intermediate</label><br>
+      <input type="text" id="intermediate" placeholder="Enter here"><br>
+      <label>Degree</label><br>
+      <input type="text" id="degree" placeholder="Enter here"><br>
+   </section>
+   
+   <section class="Skills">
+      <h2>Skills</h2>
+      <input type="text" id="skill1" placeholder="Skill 01"><br>
+      <input type="text" id="skill2" placeholder="Skill 02"><br>
+      <input type="text" id="skill3" placeholder="Skill 03"><br>
+   </section>
+   
+   <section class="Experience">
+      <h2>Experience</h2>
+      <textarea id="experience" placeholder="Enter your experience"></textarea><br>
+      <button id="generateBtn">Generate</button>
+   </section>
+
+   <div id="resume" style="display:none;"></div>
+
+   <script src="script.js"></script>
+</body>
+</html>
